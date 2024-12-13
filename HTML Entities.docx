@@ -1,0 +1,21 @@
+HTML entities: Entities used instead of the actual characters to get the desrired output characters on the display.
+They are always initiared with the & symbol and end with a symbol.
+
+1) < and > 
+   ->Symbols like <,>; i.e. the lesser than or greater than are special symbols reserved for declaring the tags in HTML. Using them directly may give the unexpected outputs.
+   ->To make their use we need the html entities: &gt; and &lt;
+
+2) Other symbols and characters:
+    There are my other html entities used.
+        &amp; → & (Ampersand) 
+        &quot; → " (Double quotation mark)
+        &apos; → ' (Single quotation mark)
+        &copy; → Copyright
+        &trade; → Trademark
+
+3) Instead of short forms, we can also print the characters with their ASCII values.
+    Eg &#98; Here we must use the # symbol between & symbol and the ASCII value.
+
+4)Multiple spaces (nbsp)
+    HTML, by deafault, doesn't process the multiple spaces.
+    To give multiple spaces, instaed of spacing, we use the html enity &nbsp, i.e. non breaking space
