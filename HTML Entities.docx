@@ -18,4 +18,4 @@ They are always initiared with the & symbol and end with a symbol.
 
 4)Multiple spaces (nbsp)
     HTML, by deafault, doesn't process the multiple spaces.
-    To give multiple spaces, instaed of spacing, we use the html enity &nbsp, i.e. non breaking space
+    To give multiple spaces, instaed of spacing, we use the html enity &nbsp, i.e. non breaking space.
