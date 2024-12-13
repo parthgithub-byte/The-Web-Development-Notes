@@ -9,10 +9,14 @@ Following are some terms in HTML:
     i)Tags give the functonality to a an element.
     It has two parts: <opening tag> and </closing tag>.
     ii) The content comes in between the opening and closing tag. It appears on the screen depending on the tag.
-    Eg. <h1>Lorem ipsum</h1>
+   Eg. ![image](https://github.com/user-attachments/assets/0c0d7522-9e11-4b00-bc9f-1adffba56b91) Gives:-
+
+    <h1>Lorem ipsum</h1>
     Together tag and content form an element.
 
-3) Attribute:-
+4) Attribute:-
     An attribute works as a parameter of the tag, giving additional information necessary for the tag. Sometimes, attributes are for just additional info but sometimes they are necessay.
-    i) Eg. <p lang="en"> Lorem </p> Here lang is an attribute giving additional info.
-    ii)Eg. <img src="cat.png" alt="A cat image" > 
+    i) Eg. ![image](https://github.com/user-attachments/assets/e6358ce5-6cf3-48ce-a800-26bfeca4b4ea)
+ <p lang="en"> Lorem </p> Here lang is an attribute giving additional info.
+    ii)Eg. ![image](https://github.com/user-attachments/assets/04f3cdfa-40bf-4e69-8402-0342049fc76c)
+ <img src="cat.png" alt="A cat image" > 
