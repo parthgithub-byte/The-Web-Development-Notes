@@ -19,4 +19,4 @@ Following are some terms in HTML:
     i) Eg. ![image](https://github.com/user-attachments/assets/e6358ce5-6cf3-48ce-a800-26bfeca4b4ea)
  <p lang="en"> Lorem </p> Here lang is an attribute giving additional info.
     ii)Eg. ![image](https://github.com/user-attachments/assets/04f3cdfa-40bf-4e69-8402-0342049fc76c)
- <img src="cat.png" alt="A cat image" > 
+ <img src="cat.png" alt="A cat image" >
