@@ -16,6 +16,7 @@
         Eg. <p class="class1" id="id1"></p> <!--Just type p.class1#id1 and enter-->
 
 2] For custom attributes:-
+
     For speedy input of just any attribute for a tag, following syntax is used:
         tagname[attributename=""]
         Eg. <p title="List of shops"></p>  <!-- Just type p[title="List of Shops"]-->
@@ -28,3 +29,10 @@
         Eg.1) <img src="cat.jpg" alt="A cat image"> <!-- Typing img[src="cat.jpg"alt="A cat image"]-->
            2) <img src="" alt="">    <!Typing only img and enter-->
            3) <img src="catalyst.img" alt=""> <!--Tping img[src="catalyst.img"]-->
+
+3] HTML text directly under the tag:-
+
+    Instead of any attributes if one wants to just enter the plain text und an html tag in a shortcut, that can be achieved using following syntax:
+        tagname{Content}
+        Eg. <p>Hello world!</p>         <!--Typing p{Hello world!} -->
+            <h2>Welcome</h2>            <!--Typing h2{Welcome} -->
