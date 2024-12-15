@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Sibling grouping :: Addition grouping -->
+    <!-- Entering "p>li+h6+p", we get -->
+    <p>
+        <li></li>
+         <h6></h6>
+         <p></p>
+    </p>
+
+    <!-- Sibling grouping :: Multiplication grouping -->
+    <!-- Entering "p>li*10", we get -->
+    <p>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </p>
+
+    <!-- Entering "p>h2+ul*3+ol*3", we get -->
+    <p>
+        <h2></h2>
+        <ul></ul>
+        <ul></ul>
+        <ul></ul>
+        <ol></ol>
+        <ol></ol>
+        <ol></ol>
+    </p>
+
+
+    <!-- Parent Child Grouping -->
+    <!-- Entering "p>h2>li>div>p", we get -->
+    <p>
+        <h2>
+            <li>
+                 <div>
+                       <p></p>
+                   </div>
+               </li>
+           </h2>
+    </p>
+
+    <!-- Entering "p>h2>li>div>p>div.class1#id1>img[src="cat.png"alt="A cute cat photo"]", we get -->
+    <p>
+        <h2>
+            <li>
+                <div>
+                    <p>
+                        <div class="class1" id="id1"><img src="cat.png" alt="A cute cat photo"></div>
+                    </p>
+                </div>
+            </li>
+        </h2>
+    </p>
+    
+    <!-- Entering "p>h2>li+li+ol*4>div.class1#id1>h6*2 ", we get -->
+    <p>
+        <h2>
+            <li></li>
+            <li></li>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+        </h2>
+    </p>
+</body>
+</html>

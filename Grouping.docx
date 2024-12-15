@@ -1,0 +1,118 @@
+Grouping is an essential property provided by Emmet to combine different tags in 
+heirarchal manner.
+There are many types of grouping:
+
+
+1) Sibling Grouping:
+
+a) Addition:
+    If you want the tags structured like:
+      <p>
+         <li></li>
+          <h6></h6>
+          <p></p>
+      </p>
+    Here, instead of all this repetitive opening and closing of tags, just simply:
+    Just type and enter:
+      p>li+h6+p
+    Thus, the tags are added with the plus signs.
+
+b) Multiplication:
+    It is just the modificatio of the addition grouping. Instead of continously
+    adding the repeating tags, just multiply them.
+    If you want to type:
+      <p>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </p>
+    To avoid the repetitive typing just type and enter:
+      p>li*10
+    More eg. If you want the structure like:
+      <p>
+          <h2></h2>
+          <ul></ul>
+          <ul></ul>
+          <ul></ul>
+          <ol></ol>
+          <ol></ol>
+          <ol></ol>
+      </p>
+    Just type and enter:-
+      p>h2+ul*3+ol*3
+
+
+2] Parent Child Grouping:
+
+Consider you want the following:
+<p>
+    <h2>
+        <li>
+             <div>
+                   <p></p>
+               </div>
+           </li>
+       </h2>
+</p>
+Insted of the repetion of opening and closing the tags, just group them in the
+parent child grouping as:
+p>h2>li>div>p and enter.
+
+More eg. If you want a structure like:
+    <p>
+        <h2>
+            <li>
+                <div>
+                    <p>
+                        <div class="class1" id="id1"><img src="cat.png" alt="A cute cat photo"></div>
+                    </p>
+                </div>
+            </li>
+        </h2>
+    </p>
+
+    Just enter:
+    p>h2>li>div>p>div.class1#id1>img[src="cat.png"alt="A cute cat photo"]
+
+More eg. If you want do the grouping as:
+    p>h2>li+li+ol*4>div.class1#id1>h6*2 
+and enter the result will be:
+    <p>
+        <h2>
+            <li></li>
+            <li></li>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+            <ol>
+                <div class="class1" id="id1">
+                    <h6></h6>
+                    <h6></h6>
+                </div>
+            </ol>
+        </h2>
+    </p>
+
+Thus, we see that so much of our effort is saved using the grouping techniques.
