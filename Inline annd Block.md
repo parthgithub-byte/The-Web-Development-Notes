@@ -48,9 +48,16 @@ Eg: `<span>`Seventh `</span>` `<apan>` Hokage `</span>` is printed as:
 4] The `<br>` tag:
 It's the inline tag after which a line break is applied.
 Eg: 
-	<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo inventore possimus dolore nesciunt debitis blanditiis incidunt ad consequuntur sequi, corporis, rerum adipisci, perferendis alias necessitatibus? Voluptatem voluptates quam alias obcaecati.</p>
-	
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quo inventore possimus dolore nesciunt debitis blanditiis incidunt ad consequuntur sequi,<br> corporis, rerum adipisci, perferendis alias necessitatibus?<br> Voluptatem voluptates quam alias obcaecati. </p>
+	`<p>` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo inventore possimus dolore nesciunt debitis blanditiis incidunt ad consequuntur sequi, corporis, rerum adipisci, perferendis alias necessitatibus? Voluptatem voluptates quam alias obcaecati.`</p>`
+ It is printed as:
+ <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo inventore possimus dolore nesciunt debitis blanditiis incidunt ad consequuntur sequi, corporis, rerum adipisci, perferendis alias necessitatibus? Voluptatem voluptates quam alias obcaecati.</p>
+While,	
+    `<p>`Lorem ipsum dolor sit amet consectetur adipisicing elit. `<br>` Quo inventore possimus dolore nesciunt debitis blanditiis incidunt ad consequuntur sequi,`<br>` corporis, rerum adipisci, perferendis alias necessitatibus?<br> Voluptatem voluptates quam alias obcaecati. `</p>`
+    is printed as:
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Quo inventore possimus dolore nesciunt debitis blanditiis incidunt ad consequuntur sequi,</p>
+    <p>corporis, rerum adipisci, perferendis alias necessitatibus?</p>
+    <p></p>Voluptatem voluptates quam alias obcaecati. </p>
 
 
 - One may say that, inline elements are like bricks, while block elements are like a beam.
