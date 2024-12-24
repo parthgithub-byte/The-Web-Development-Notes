@@ -148,17 +148,15 @@ Multiple Description Lists
 
     displays:
     Multiple Description Lists
-    <dl>
+  <dl>
         <dt>Shonen Anime: </dt>
         <dd>Naruto</dd>
         <dd>One Piece</dd>
-        <dd>Bakuman</dd>
-        
+        <dd>Bakuman</dd>        
         <dt>Sports</dt>
         <dd>Hajime no Ippo</dd>
         <dd>Haikyuu</dd>
         <dd>Baby Steps</dd>
-
         <dt>Shoujo</dt>
         <dd>Kimi ni Todoke</dd>
         <dd>Kaichou wa Maid-sama</dd>
