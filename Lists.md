@@ -105,7 +105,7 @@ Obviously, the natural numbers are the by default used ordered list bullets.
 A descrption list contains description terms an their respective descriptive definitions. So, it's like an unordered list of unordered lists.
 Here there are two types of tags for listings:
 
-I] Description Term Tag (`<dt>`)
+I] Description Term Tag (`<dt>`)  
 II] Description Definition Tag (`<dd>`)
 
 Both the tags come under the description list tag (`<dl>`).
