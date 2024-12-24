@@ -16,7 +16,7 @@ Eg:
         `<li>`Python Scripts`</li>`  
         `<li>`CDN`</li>`  
     `</ul>`  
-    is displayed as:
+    is displayed as:  
         HTML  
         CSS  
         Javascript  
