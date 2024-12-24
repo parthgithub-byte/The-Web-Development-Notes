@@ -61,12 +61,12 @@ Eg:
     displays as:
     Steps to make tea:
 
-    1. Place a vessel on stove, put half cup water in it.  
-    2. Put two spoons tea powder.  
-    3. After the water boils enough, put four spoons of sugar.  
-    4. Then pour one mug milk in it.  
-    5. Let it boil enough at high flame  
-    6. Serve in two small cups  
+1. Place a vessel on stove, put half cup water in it.  
+2. Put two spoons tea powder.  
+3. After the water boils enough, put four spoons of sugar.  
+4. Then pour one mug milk in it.  
+5. Let it boil enough at high flame  
+6. Serve in two small cups  
 
 There are also types of ways to present the order of a list with their markers (initials in each set):
 (1) Natural numbers 1,2,3,...               **type="1"**
@@ -120,7 +120,7 @@ Eg:
     `</dl>`  
     
     displays:
-    <p>Single Description List</p>
+  <p>Single Description List</p>
     <dl>
         <dt>Features of My Laptop</dt>
         <dd>OS: Windows 10</dd>
