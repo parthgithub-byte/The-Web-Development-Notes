@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Video</title>
+</head>
+<body>
+    <h4> Dowload the HTML file, run in browser and compare with the script.</h4>
+    <p>Let's see an image:</p>
+    <!-- Importing the file from the local directory -->
+    <img src="Pokemon.png" alt="Pokemon" />
+    <!-- Resizing it in terms of pixels -->
+    <p>Resizing the image: </p>
+    <img src="Pokemon.png" alt="Pokemon" height="400" width="600" >
+    <p> We see that, resizing both height and width distorts the aspect ratio.</p>
+    
+    <p> To maintain it, just adjust one of the two attributes, height or width.</p>
+    <img src="Pokemon.png" alt="Pokemon" width="600px" >
+    <!-- Note, for parameters height/ width you may or may not write "px" at the end. Writing px explains that we are modifying the display pixels of the image-->
+    <hr><hr>
+    <p>Importing the image from Web</p>
+    <img src="https://static.wikia.nocookie.net/pokemon/images/f/f3/Ho-oh_%28MS020%29.png/" alt="Pokemon" >
+    <p>You can also modify its size.</p>
+    <img src="https://static.wikia.nocookie.net/pokemon/images/f/f3/Ho-oh_%28MS020%29.png/" alt="Pokemon" height="350" >
+    <hr>
+    <p>Suppose, if your source is inaccessible, only the image frame appears.</p>
+    <img src="https://static.wikia.nocookie.net" alt="Pokemon" height="350" > <hr>
+    <p> If the image source is straight up wrong, only alternate text with image icon appears.</p>
+    <img src="image" alt="Pokemon" height="350" >
+    <hr>
+    <p>Hower on the image to see the descriptive title.</p>
+    <!-- Using the title="" attribute -->
+    <img src="Pokemon.png" alt="Pokemon" width="600px" title="Ho-Oh Legendary pokemon">
+
+</body>
+</html>

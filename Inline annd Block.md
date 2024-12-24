@@ -59,3 +59,22 @@ is printed as:
 - One may say that, inline elements are like bricks, while block elements are like a beam.
 - That is, inline elements come one after the other, while block level elements come next to each other only after a line is completed.
 Below is the list of other block elements:
+---
+Above we saw that to create a paragraph with line breaks, we used the `<br>` tag repetitively. Instead we can just use the `<pre>` tag 
+(informally the poem tag).
+Eg:
+`<pre>`
+Roses are red,
+Violets are blue,
+Sugar is sweet,
+And so are you.
+`</pre>`
+results in 
+<pre>
+Roses are red,
+Violets are blue,
+Sugar is sweet,
+And so are you.
+</pre>
+
+
