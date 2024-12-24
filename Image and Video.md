@@ -13,17 +13,21 @@ The `<img`> tag is a self closing tag and ideally written as `<img/>`.
 Eg of the image tag: `<img src="Pokemon.png" alt="Pokemon" />` Displays: <img src="Pokemon.png" alt="Pokemon" />
 Now above file will be displayed as it is in the directory.
 To show a distant server server file, use the link to the image.
-Eg: `<img src="https://static.wikia.nocookie.net/pokemon/images/f/f3/Ho-oh_%28MS020%29.png/" alt="Pokemon" >` Displays: <img src="https://static.wikia.nocookie.net/pokemon/images/f/f3/Ho-oh_%28MS020%29.png/" alt="Pokemon" >
+Eg: `<img src="https://static.wikia.nocookie.net/pokemon/images/f/f3/Ho-oh_%28MS020%29.png/" alt="Pokemon" >` 
+Displays: <img src="https://static.wikia.nocookie.net/pokemon/images/f/f3/Ho-oh_%28MS020%29.png/" alt="Pokemon" >
 
 **Other attributes**
 - To resize the image in terms of pixels, we can use the height and pixel attributes:
-Eg: `<img src="Pokemon.png" alt="Pokemon" height="400" width="600" >` Displays
+Eg: `<img src="Pokemon.png" alt="Pokemon" height="400" width="600" >` 
+Displays
 <img src="Pokemon.png" alt="Pokemon" height="400" width="600" >
 However, we see that, resizing both height and width almost always distorts the aspect ratio. We can resize the image with any of one parameter and the aspect ratio is preserved.
 
-Eg: `<img src="Pokemon.png" alt="Pokemon" width="600px" >` Displays
+Eg: `<img src="Pokemon.png" alt="Pokemon" width="600px" >` 
+Displays
 <img src="Pokemon.png" alt="Pokemon" width="600px" >
 
 - Image Title: Like for most other elements, mentioning the value of the title="" attribute gives additioal on the image. Hower on the image to see it.
 Eg: `<img src="Pokemon.png" alt="Pokemon" width="600px" title="Ho-Oh Legendary pokemon">` shows it like:
+
 ![Image](imagetitle.png)
