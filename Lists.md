@@ -17,14 +17,14 @@ Eg:
         `<li>`CDN`</li>`  
     `</ul>`  
     is displayed as:
-        HTML
-        CSS
-        Javascript
-        Mediawiki(PHP)
-        MySQL
-        JSON APIs
-        Python Scripts
-        CDN
+        HTML  
+        CSS  
+        Javascript  
+        Mediawiki(PHP)  
+        MySQL  
+        JSON APIs  
+        Python Scripts  
+        CDN  
 
 Now, these bullets can be customized specifically to some certain types like: circle, square, disc and none.
 Eg:
