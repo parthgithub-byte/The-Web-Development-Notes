@@ -28,4 +28,4 @@ Topics currently covered and in progress:-
      [🌐 HTML Code](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Lists.html)
 
 11) [->Linkings explained](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Linkings.md)  
-     [🌐 HTML Code](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Lists.html)
+     [🌐 HTML Code](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Linkings.html)
