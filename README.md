@@ -26,3 +26,6 @@ Topics currently covered and in progress:-
 
 10) [->Lists and types explained](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Lists.md)  
      [🌐 HTML Code](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Lists.html)
+
+11) [->Linkings explained](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Linkings.md)  
+     [🌐 HTML Code](https://github.com/parthgithub-byte/The-Web-Development-Notes/blob/main/Lists.html)
