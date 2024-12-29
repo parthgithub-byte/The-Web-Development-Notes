@@ -30,5 +30,8 @@ Topics currently covered and in progress:-
 11) [->Linkings explained](Linkings.md)  
      [🌐 HTML Code](Linkings.html)
 
-11) [->Videos explained](Videos.md)  
+12) [->Videos explained](Videos.md)  
      [🌐 HTML Code](Videos.html)
+
+13) [-Audios explained](Audios.md)
+     [🌐 HTML Code](Audios.html)
