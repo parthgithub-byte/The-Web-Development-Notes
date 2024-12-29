@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos explained</title>
+</head>
+<body>
+    <ol>
+    <li><span><strong>Using the &lt;video&gt; tag:</strong></span></li>
+    <video src="https://videos.pexels.com/video-files/27906428/12258956_360_640_25fps.mp4">Morning bliss</video>
+    <!-- The text "Morning bliss" is an alternative, optional text and appears if video cannot be diaplayed. -->
+    
+    <li> <span><strong>Here, we see that video appears just as an image with no video controls. For that, we add the controls attribute</strong></span></li>
+    <video src="https://videos.pexels.com/video-files/27906428/12258956_360_640_25fps.mp4" controls>Morning bliss</video> 
+    
+    <li><span><strong>We see that video starts only after clicking the video. <br> If we want it to autostart after loading the page, we add the autoplay attribute.</strong></span></li>
+    <video src="https://videos.pexels.com/video-files/27906428/12258956_360_640_25fps.mp4" controls autoplay>Morning bliss</video>
+    
+    <li><p><strong>Though, above feature may be unpleasent to the users if the video gives out loud sound.<br> For this, we add the muted attribute.</strong></p></li>
+    <video src="https://videos.pexels.com/video-files/27906428/12258956_360_640_25fps.mp4" controls autoplay muted></video>
+    <h5>In modern browsers, this attribute is necessary with the autoplay attribute for autoplay feature to be anable.<br> If a video has this attribute and no autoplay, it will not automatically start, but will remain muted even after starting by default. Eg:</h5>
+    <video src="Marvel  Kacha Badam.mp4" controls muted width="400"></video>
+
+    <p><small><em>(With due credits to <a href="https://www.youtube.com/watch?v=-ZIMr7jRHME&pp=ygUYa2FjaGEgYmFkYW0gbWFydmVsIGJlYXRz" target="_blank">the owners)</a></em></small></p>
+    
+    <li>
+        <p><strong>Resized Video:</strong></p>
+        <video src="https://videos.pexels.com/video-files/27906428/12258956_360_640_25fps.mp4" controls muted width="600"></video>
+    </li>
+    
+    <li>
+        <p>Taking the source with the source tag itself:</p>
+        <video controls autoplay muted width="450">
+            <source src="Marvel  Kacha Badam.mp4" type="video/mp4"> <!--For fetching the mp4 file-->
+            <source src="Marvel  Kacha Badam.mkv" type="video/mkv"> <!--To get the mkv file in case the user can't access the mp4 file-->
+        </video>
+    </li>
+
+    </ol>
+
+</body>
+</html>
