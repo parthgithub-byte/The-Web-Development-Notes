@@ -21,7 +21,7 @@ Topics currently covered and in progress:-
 8)  [->Inline and Block elements explained](Inline%20and%20Block.md)  
      [🌐 HTML Code](InlineBlock.html)
 
-9)  [->Images in HTML explained](Video.md)  
+9)  [->Images in HTML explained](Image%20and%20Video.md.md)  
      [🌐 HTML Code](Video.html)
 
 10) [->Lists and types explained](Lists.md)  
@@ -33,5 +33,5 @@ Topics currently covered and in progress:-
 12) [->Videos explained](Videos.md)  
      [🌐 HTML Code](Videos.html)
 
-13) [-Audios explained](Audios.md)
+13) [-Audios explained](Audios.md)  
      [🌐 HTML Code](Audios.html)
