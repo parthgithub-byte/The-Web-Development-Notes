@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>Forms 2</title>
+</head>
+<body>
+    There can be multiple forms and multiple field sets.
+    <form>
+        <p>The form is seperately stored in the fieldset</p>
+        <fieldset>  <!-- Borders the form and sepearates it. Thus submitting it won't submit the complete page's data as there could be other forms.-->
+        <legend>User details</legend>
+        <!-- The Legend tag entitles the fieldset.-->
+        <label for="name1">Enter your name</label>
+        <input type="text" id="name1">
+        <br>
+        <label for="address1">Enter the address</label>
+        <textarea rows="2" cols="30" id="address1"></textarea>
+        <br>
+        <label for="dob">Enter the date of birth</label>
+        <input type="date" name="" id="dob">
+        <br>
+        <label for="pass">Enter the password</label>
+        <input type="password" id="pass">
+        <br>
+        <p>Enter the gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" name="usergender" id="male"> 
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="usergender" id="female">
+        <br>
+        <label for="Others">Others</label>
+        <input type="radio" name="usergender" id="Others">
+        <br>
+        <p>Languages with at least basic proficiency:</p>
+        <label for="marathi">Marathi</label>
+        <input type="checkbox" name="" id="marathi">
+        <br>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" name="" id="hindi">
+        <br>
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name="" id="tamil">
+        <br>
+        <label for="english">English</label>
+        <input type="checkbox" name="" id="english">
+        <br>
+        <label for="bengali">Bengali</label>
+        <input type="checkbox" name="" id="bengali">
+        <br>
+        <br>
+        <input type="submit" value="Submit the form" >
+
+        </fieldset>
+        <fieldset>
+            Like this is another one.
+        </fieldset>
+    </form>
+    <fieldset>
+        Or this too.
+        <legend>Just another fieldset.</legend>
+    </fieldset>
+    <a href="Forms3.html">The clean user info taking form</a>
+</body>
+</html>

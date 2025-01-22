@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <p>Normal input; gets submitted once entered</p>
+    <form>
+    <input type="text">
+    </form>
+    <p>Let's make it a bit readable.</p>
+    <hr>
+    <form>
+        <p>Enter your name</p>
+        <input type="text">
+    </form>
+    <hr>
+    <!-- We notice how the text get's submitted with ENTER and thus a multiline input cannot be given normally. Thus, for a multiline input, we can make a text area. -->
+    <!-- Here, I made it of a size 3 rows and 30 columns and is 2 rows and 21 columns by default. The box size is customizable and can be extended by the user at the corner. By default, it's also of the size of the first input box. -->
+    <form>
+        <p>Enter your name</p>
+        <input type="text" >
+        <br>
+        <p>Enter the address</p>
+        <textarea rows="3" cols="30" ></textarea>
+    </form>
+    <hr>
+    <!-- Notice that the input by the user can only be started when clicked on the boxes. If I want it so that, even after clicking on the input asking message, the input should start, I can label the messages. In the label tags, the for attributes are passed with the id of the intended boxes. I have already assigned the boxes with the ids. Thus I have turned the plain paragraph texts into dedicated labels for corresponding boxes. -->
+    <form>
+        <label for="name">Enter your name</label>
+        <input type="text" id="name">
+        <br>
+        <label for="address">Enter the address</label>
+        <textarea rows="3" cols="30" id="address"></textarea>
+    </form>
+    <hr>
+    <!-- There are many types of inputs just like the text input. One such is the the date attribute. -->
+    <!-- There is also the password input type. -->
+    <!-- Another such is the radiobuttons to select one from multiple options. Make sure to keep all the labels' name common to select only one option. -->
+    <!-- To purposely select the multiple inputs, we use the checkbox. Here the names must be identical, obviously. -->
+    <form>
+        <label for="name1">Enter your name</label>
+        <input type="text" id="name1">
+        <br>
+        <label for="address1">Enter the address</label>
+        <textarea rows="2" cols="30" id="address1"></textarea>
+        <br>
+        <label for="dob">Enter the date of birth</label>
+        <input type="date" name="" id="dob">
+        <br>
+        <label for="pass">Enter the password</label>
+        <input type="password" id="pass">
+        <br>
+        <p>Enter the gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" name="usergender" id="male"> 
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="usergender" id="female">
+        <br>
+        <label for="Others">Others</label>
+        <input type="radio" name="usergender" id="Others">
+        <br>
+        <p>Languages with at least basic proficiency:</p>
+        <label for="marathi">Marathi</label>
+        <input type="checkbox" name="" id="marathi">
+        <br>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" name="" id="hindi">
+        <br>
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name="" id="tamil">
+        <br>
+        <label for="english">English</label>
+        <input type="checkbox" name="" id="english">
+        <br>
+        <label for="bengali">Bengali</label>
+        <input type="checkbox" name="" id="bengali">
+        <br>
+        <br>
+        <input type="submit" value="Submit the form" >
+    </form>
+    <hr>
+    <!-- We notice that for each attribute, there is a name attribute. This name attribute is necessary to deliver the submitted data to the server side. Thus, for the radio input of the genders, we give them the same names as gender.-->
+    
+    <!-- The submit input submits the entire given data to the server -->
+    <hr>
+    <a href="Forms2.html">To be continued...</a>
+</body>
+</html>
