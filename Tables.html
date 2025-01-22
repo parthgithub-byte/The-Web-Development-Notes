@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr. No.</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>History</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Medium</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>More</td>
+            <td>Rasal</td>
+            <td>Sawant</td>
+            <td>Bhosale</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5 days</td>
+            <td>4 days</td>
+            <td>5 days</td>
+            <td>4 days</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>History</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Medium</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>More</td>
+            <td>Rasal</td>
+            <td>Sawant</td>
+            <td>Bhosale</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5 days</td>
+            <td>4 days</td>
+            <td>5 days</td>
+            <td>4 days</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="" cellpadding="10px" > <!--Making the table size appropriate for the font size-->
+        <tr>
+            <th>Sr. No.</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>History</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Medium</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>More</td>
+            <td>Rasal</td>
+            <td>Sawant</td>
+            <td>Bhosale</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5 days</td>
+            <td>4 days</td>
+            <td>5 days</td>
+            <td>4 days</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="" cellpadding="10px" cellspacing="5px" > <!--Describing the desired space between each cell. By default, it's 2px-->
+        <tr>
+            <th>Sr. No.</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>History</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Medium</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>More</td>
+            <td>Rasal</td>
+            <td>Sawant</td>
+            <td>Bhosale</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5 days</td>
+            <td>4 days</td>
+            <td>5 days</td>
+            <td>4 days</td>
+        </tr>
+    </table>
+
+    <!-- We can also observe that each data entry is by default in its own cell. Eg. if I remove the last attribute from the table, and also make the days alloted as an empty entry, it looks like this -->
+    <hr>
+    
+    <p>Each attribute spans over only a single cell</p>
+
+    
+
+    <table border="" cellpadding="10px" cellspacing="5px" > 
+        <tr>
+            <th>Sr. No.</th>
+            <th>Math</th>
+            <th>History</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Medium</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>More</td>
+            <td>Rasal</td>
+            <td>Sawant</td>
+            <td>Bhosale</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5 days</td>
+            <td>4 days</td>
+            <td>5 days</td>
+            <td></td>
+        </tr>
+    </table>    
+    <!--In one case, a blank space is seen and in other, a blank cell is noticed. If I want it so that the 3rd entry spans over two cells, (and in other cases, any data attribute span over the multiple cells,) we can do it as -->
+
+    <hr>
+
+    <p>Eg.: Bhosale sir is on leave, so now Sawant sir teaches both Science and Language.</p>
+
+    <table border="" cellpadding="10px" cellspacing="5px" > 
+        <tr>
+            <th>Sr. No.</th>
+            <th>Math</th>
+            <th>History</th>
+            <th>Science</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Medium</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>More</td>
+            <td>Rasal</td>
+            <td colspan="2">Sawant</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5 days</td>
+            <td>4 days</td>
+            <td>5 days</td>
+            <td>4 days</td>
+        </tr>
+    </table>
+
+    <!-- Thus, colspan works rightwards. Similarly, we have the rowspan which works downwards. -->
+
+<hr>
+<p>Eg. Now, due to Sawant sir's teaching, students feel it Hard to learn Language. Further, to change the shift in student response, we change the border colors.</p>
+
+    <table border cellpadding="5px" cellspacing="5px" bordercolor="silver">
+        <tr>
+            <th>Sr.no/ Subject</th>
+            <th>Difficulty</th>
+            <th>Teacher</th>
+            <th>Days alloted</th>
+        </tr>
+        <tr>
+            <td>1. Math</td>
+            <td>Medium</td>
+            <td>More</td>
+            <td>5 days</td>
+        </tr>
+        <tr>
+            <td>2. History</td>
+            <td>Hard</td>
+            <td>Rasal</td>
+            <td>4 days</td>
+        </tr>
+        <tr>
+            <td>3. Science</td>
+            <td rowspan="2">Hard</td>
+            <td rowspan="2">Sawant</td>
+            <td>5 days</td>
+        </tr>
+        <tr>
+            <td>4. Language</td>
+            <td>4 days</td>
+        </tr>
+            
+    </table>
+</body>
+</html>

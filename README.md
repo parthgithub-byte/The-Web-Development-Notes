@@ -34,4 +34,7 @@ Topics currently covered and in progress:-
      [🌐 HTML Code](Videos.html)
 
 13) [-Audios explained](Audios.md)  
-     [🌐 HTML Code](Audios.html)
+     [🌐 HTML Code](Audios.html)  
+
+14) [->Tables explained](Tables.md)
+     [🌐 HTML Code](Tables.html)
