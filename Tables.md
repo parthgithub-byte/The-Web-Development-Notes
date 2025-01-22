@@ -1,6 +1,7 @@
 # Explanation of HTML Tables and Highlighted Code Examples
 
-This document explains various HTML table attributes and techniques as demonstrated in the provided HTML code. Each section includes the corresponding code snippet, the table's appearance, and an explanation. Comments and paragraphs from the original code are included.
+This document explains various HTML table attributes and techniques as demonstrated in the provided HTML code. Each section includes the corresponding code snippet, the table's appearance, and an explanation. Comments and paragraphs from the original code are included.  
+(The md documentation henceforth will be AI generated to save time, but they're based on the pinned html files themselves and the outputs are manually appended ( ͡~ ͜ʖ ͡°).)  
 
 ---
 
