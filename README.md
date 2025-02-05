@@ -45,5 +45,5 @@ Topics currently covered and in progress:-
 16) [->Get and Post Methods explained](GetandPost.md)  
      [🌐 HTML Code](Forms.html)  
 
-17)  [->InputForms](InputForms.md)
+17)  [->InputForms](InputForms.md)  
      [🌐 HTML Code](InputForms.html)  
