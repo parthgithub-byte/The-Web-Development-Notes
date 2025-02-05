@@ -1,0 +1,1 @@
+The HTML code with its comments is pretty informative. Read it [here](Input Forms.md)

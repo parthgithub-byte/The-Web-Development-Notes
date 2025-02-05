@@ -1,0 +1,76 @@
+<!-- In this section we will understand a few attribute tags in a form that amplify the input experience and understand some input types. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms3</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>User details</legend>
+        
+        <label for="name1">Enter your name</label>
+        <input type="text" id="name1" placeholder="Full name"> <!--The placeholder acts as a hint for a box, it shows a light coloured text denoting the expected input-->
+        <br>
+        <label for="roll">Enter your roll no: </label>
+        <input type="text" id="roll" placeholder="Eg. SCOB11" autofocus required> <br><!--This special attribute makes it so that, this one box is already highlighted after loading the page-->
+        <!-- Here, the input is specified to be required meaning that unless given a value for, the form cannot be submitted. -->
+
+        <label for="age">Enter the age</label>  <!--This tag takes numerical input which can be scrolled to increse or decrease. Further, if you pass a non numerical value, the form cannot be submitted and asks to return the numerical value only.-->
+        <input type="number" id="age" placeholder="20" min="0"><br>
+        <!-- Here, the min is set to 0, as logically speaking, minimum age is 0 and can't be lower. If not set so, the scroll down in the negative integer's direction. Similarly I can even set the max value. If the number crosses any of these, you cannot submit the form.-->
+
+        <label for="address">Enter the address</label>
+        <input type="text" id="address" value="India" autofocus><br> <!-- value denotes a value that gets automatically uploaded in the input box which can be edited or deleted by the user if desired. Mostly, this value is the one which will always stay true, still it's editable.-->
+        <!-- Note, even at this box, the autofocus tag was given. But only the first autofocused input is considered. -->
+        <label for="course">Enter your course</label>
+        <input type="text" id="course" value="Engineering" readonly> <!--The readonly attribute makes it so that, if the input is surely fix, we just cannot change it's value and only select the input box.-->
+        <br>
+        <br>
+        <label for="income">Enter your income</label>
+        <input type="text" id="income" disabled><br> <!--The disabled tag blocks you from even selecting the box.-->
+        <label for="university">University name: </label>
+        <input type="text" name="" id="universiy" value="SPPU"  disabled><br> <!--The disabled tag works on both, no value and valued boxes-->
+        
+        <label for="dob">Enter the date of birth</label>
+        <input type="date" name="" id="dob" required>
+        <br>
+        <label for="pass">Enter the password</label>
+        <input type="password" id="pass">
+        <br> <br>
+        Enter the gender: <br>
+        <label for="male">Male</label>
+        <input type="radio" name="usergender" id="male"> 
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="usergender" id="female">
+        <br>
+        <label for="Others">Others</label>
+        <input type="radio" name="usergender" id="Others">
+        <br><br>
+        Languages with at least basic proficiency: <br>
+        <label for="marathi">Marathi</label>
+        <input type="checkbox" name="" id="marathi">
+        <br>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" name="" id="hindi">
+        <br>
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name="" id="tamil">
+        <br>
+        <label for="english">English</label>
+        <input type="checkbox" name="" id="english">
+        <br>
+        <label for="bengali">Bengali</label>
+        <input type="checkbox" name="" id="bengali">
+        <br>
+        <br>
+        <input type="submit" value="Submit the form" >
+
+        </fieldset>
+    </form>
+</body>
+</html>
